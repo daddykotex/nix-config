@@ -3,5 +3,6 @@
         pkgs.htop
         pkgs.hello
         pkgs.shellcheck
+        pkgs.direnv
     ];
 }
