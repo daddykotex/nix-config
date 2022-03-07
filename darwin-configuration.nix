@@ -2,12 +2,13 @@
 
 {
   imports = [ <home-manager/nix-darwin> ];
-
-  # List packages installed in system profile. To search by name, run:
-  # $ nix-env -qaP | grep wget
-  environment.systemPackages =
-    [ pkgs.vim
-    ];
+  home-manager = {
+    useUserPackages = true;
+    useGlobalPkgs = true;
+    users."David.Francoeur" = {
+      imports = [ ./home.nix ];
+    };
+  };
 
   # Use a custom configuration.nix location.
   # $ darwin-rebuild switch -I darwin-config=$HOME/.config/nixpkgs/darwin/configuration.nix
