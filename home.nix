@@ -1,4 +1,6 @@
 { pkgs, ... }: {
+    programs.zsh.enable = true;
+
     home.packages = [ 
         pkgs.bat
         pkgs.direnv
