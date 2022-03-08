@@ -7,6 +7,7 @@
         pkgs.hello
         pkgs.htop
         pkgs.jq
+        pkgs.pass
         pkgs.shellcheck
     ];
 
