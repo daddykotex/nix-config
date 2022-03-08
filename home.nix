@@ -9,6 +9,7 @@
         pkgs.jq
         pkgs.pass
         pkgs.shellcheck
+        pkgs.vscode
     ];
 
     imports = [
