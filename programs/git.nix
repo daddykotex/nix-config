@@ -25,7 +25,7 @@
 
     includes = [
       {
-        condition = "gitdir:~/workspace/work";
+        condition = "gitdir:~/workspace/disney/";
         contents.user = {
           name = "David Francoeur";
           email = "david.francoeur@disneystreaming.com";
