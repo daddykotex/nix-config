@@ -10,7 +10,10 @@
       co = "checkout";
       cob = "checkout -b";
       pu = "push -u";
-      rsh = "reset --hard HEAD";
+      rsh = "reset --hard";
+      rc = "rebase --continue";
+      ria = "rebase --interactive --autosquash";
+      ra = "rebase --abort";
     };
 
     ignores = [
