@@ -7,6 +7,9 @@
     delta.enable = true;
 
     aliases = {
+      ca = "commit --amend";
+      can = "commit --amend --no-edit";
+      cf = "commit --fixup";
       co = "checkout";
       cob = "checkout -b";
       pu = "push -u";
