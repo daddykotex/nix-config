@@ -1,5 +1,10 @@
 { pkgs, ... }: {
-    programs.zsh.enable = true;
+    programs.zsh = {
+        enable = true;
+        history = {
+            size = 100000;
+        };
+    };
 
     home.packages = [ 
         pkgs.bat
