@@ -9,14 +9,15 @@
     home.packages = [ 
         pkgs.bat
         pkgs.direnv
+        pkgs.docker
         pkgs.fzf
         pkgs.gnupg
         pkgs.hello
         pkgs.htop
         pkgs.jq
         pkgs.pass
-        pkgs.tree
         pkgs.shellcheck
+        pkgs.tree
         pkgs.vscode
     ];
 
