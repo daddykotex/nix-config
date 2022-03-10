@@ -15,6 +15,7 @@
         pkgs.htop
         pkgs.jq
         pkgs.pass
+        pkgs.tree
         pkgs.shellcheck
         pkgs.vscode
     ];
