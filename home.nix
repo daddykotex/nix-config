@@ -9,7 +9,6 @@
     home.packages = [ 
         pkgs.bat
         pkgs.direnv
-        pkgs.docker
         pkgs.fzf
         pkgs.gnupg
         pkgs.hello
