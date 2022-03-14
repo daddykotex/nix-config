@@ -1,5 +1,9 @@
-{ config, pkgs, home-manager, ... }:
-
+{ config,
+  sources ? import ./nix/sources.nix,
+  pkgs ? import sources.nixpkgs {},
+  home-manager, 
+  ...
+}:
 {
   imports = [ <home-manager/nix-darwin> ];
   home-manager = {

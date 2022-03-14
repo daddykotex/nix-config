@@ -1,4 +1,8 @@
-{ pkgs, ... }: {
+{ 
+  sources ? import ./nix/sources.nix,
+  pkgs ? import sources.nixpkgs {},
+  ...
+}: {
     programs.zsh = {
         enable = true;
         history = {
