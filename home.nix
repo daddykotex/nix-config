@@ -13,6 +13,7 @@
         pkgs.gnupg
         pkgs.hello
         pkgs.htop
+        pkgs.jetbrains.idea-community
         pkgs.jq
         pkgs.pass
         pkgs.shellcheck
