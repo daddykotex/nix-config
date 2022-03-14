@@ -19,6 +19,7 @@
         pkgs.htop
         pkgs.jetbrains.idea-community
         pkgs.jq
+        pkgs.niv
         pkgs.pass
         pkgs.shellcheck
         pkgs.tree
