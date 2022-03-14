@@ -10,6 +10,21 @@
         };
     };
 
+    programs.ssh = {
+        enable = true;
+        matchBlocks = {
+          "*" = {
+            identityFile = "~/secrets/ssh/id_rsa";
+          };
+
+          "github.bamtech.co" = {
+            hostname = "github.bamtech.co";
+            identityFile = "~/secrets/ssh/id_rsa.disney";
+            identitiesOnly = true;
+          };
+        };
+    };
+
     home.packages = [ 
         pkgs.bat
         pkgs.direnv
