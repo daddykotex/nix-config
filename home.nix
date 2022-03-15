@@ -9,6 +9,9 @@
             size = 100000;
         };
     };
+    programs.fish = {
+        enable = true;
+    };
 
     programs.ssh = {
         enable = true;
