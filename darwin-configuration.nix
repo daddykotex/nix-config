@@ -14,6 +14,15 @@
     };
   };
 
+  # See https://daiderd.com/nix-darwin/manual/index.html
+
+  # Create /etc/bashrc that loads the nix-darwin environment.
+  programs.zsh.enable = true;  # default shell on catalina
+  programs.fish = {
+    enable = true;
+    vendor.completions.enable = true;
+  };
+
   nixpkgs.config.allowUnfree = true;
 
   # Use a custom configuration.nix location.
@@ -23,13 +32,6 @@
   # Auto upgrade nix package and the daemon service.
   services.nix-daemon.enable = true;
   # nix.package = pkgs.nix;
-
-  # Create /etc/bashrc that loads the nix-darwin environment.
-  programs.zsh.enable = true;  # default shell on catalina
-  programs.fish = {
-    enable = true;
-    vendor.completions.enable = true;
-  };
 
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog

@@ -16,16 +16,13 @@
     programs.ssh = {
         enable = true;
         matchBlocks = {
-          "*" = {
-            identityFile = "~/secrets/ssh/id_rsa";
-          };
-
           "github.bamtech.co" = {
             hostname = "github.bamtech.co";
             identityFile = "~/secrets/ssh/id_rsa.disney";
             identitiesOnly = true;
           };
         };
+        extraConfig = "IdentityFile ~/secrets/ssh/id_rsa\nAddKeysToAgent yes";
     };
 
     home.packages = [ 
