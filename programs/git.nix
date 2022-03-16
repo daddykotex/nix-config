@@ -16,6 +16,7 @@
       rsh = "reset --hard";
       rc = "rebase --continue";
       ria = "rebase --interactive --autosquash";
+      riaa = "rebase --interactive --autosquash --autostash";
       ra = "rebase --abort";
     };
 
