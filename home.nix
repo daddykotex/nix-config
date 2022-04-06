@@ -26,6 +26,7 @@
     };
 
     home.packages = [ 
+        pkgs.awscli2
         pkgs.bat
         pkgs.direnv
         pkgs.fzf
