@@ -35,6 +35,7 @@
         pkgs.htop
         pkgs.jetbrains.idea-community
         pkgs.jq
+        pkgs.kubectl
         pkgs.niv
         pkgs.pass
         pkgs.shellcheck
