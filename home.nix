@@ -27,11 +27,13 @@
 
     home.packages = [ 
         pkgs.awscli2
+        pkgs.aws-vault
         pkgs.bat
         pkgs.direnv
         pkgs.fzf
         pkgs.gnupg
         pkgs.hello
+        pkgs.kubernetes-helm
         pkgs.htop
         pkgs.jetbrains.idea-community
         pkgs.jq
