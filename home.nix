@@ -21,6 +21,12 @@
             identityFile = "~/secrets/ssh/id_rsa.disney";
             identitiesOnly = true;
           };
+
+          "github.prod.hulu.com" = {
+            hostname = "github.prod.hulu.com";
+            identityFile = "~/secrets/ssh/id_rsa.disney";
+            identitiesOnly = true;
+          };
         };
         extraConfig = "IdentityFile ~/secrets/ssh/id_rsa\nAddKeysToAgent yes";
     };
