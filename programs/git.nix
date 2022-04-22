@@ -4,8 +4,6 @@
     userName = "David Francoeur";
     userEmail = "dfrancoeur04@gmail.com";
 
-    delta.enable = true;
-
     aliases = {
       ca = "commit --amend";
       can = "commit --amend --no-edit";
