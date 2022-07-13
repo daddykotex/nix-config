@@ -11,6 +11,8 @@
       co = "checkout";
       cob = "checkout -b";
       pu = "push -u";
+      puo = "push -u origin";
+      puoh = "push -u origin head";
       rsh = "reset --hard";
       rc = "rebase --continue";
       ria = "rebase --interactive --autosquash";

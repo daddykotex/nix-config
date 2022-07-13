@@ -45,6 +45,7 @@
         pkgs.kubectl
         pkgs.kubectx
         pkgs.kubernetes-helm
+        pkgs.maven
         pkgs.niv
         pkgs.pass
         pkgs.shellcheck
